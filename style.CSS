@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+.main {
+
+    background-image: url("assets/img/backgroundnetflix.jpg");
+    height: 98vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 110vw;
+
+}
+
+.main .container {
+    height: 98vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0.55;
+    background-color: black;
+
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
+
+    margin-left: 15%;
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+nav img {
+    color: red;
+    width: 180px;
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.navbutton {
+    margin-right: 15%;
+    padding: 2%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+
+
+}
+
+.signbutton {
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.container {
+    font-family: 'martel sans', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 10px;
+    padding: 0 10px;
+    /* font-weight: bolder;
+    font-size: 56px; */
+}
+
+.container> :first-child {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.container> :nth-child(2) {
+    font-size: 47px;
+    font-weight: 900;
+    text-align: center;
+
+
+}
+
+.container> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 900px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.container> :nth-child(4) {
+    font-size: 20px;
+    font-weight: 1200px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+button {
+    background-color: red;
+    color: blanchedalmond;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 6px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    height: 45px;
+    width: 120px;
+    font-size: large;
+}
+
+.input {
+    width: 390px;
+    height: 38px;
+    font-size: small;
+    border-color: antiquewhite;
+    border-radius: 5px;
+    font-weight: 900;
+    padding-left: 40px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    position: relative;
+    z-index: 10;
+}
+
+.outline {
+    width: 100%;
+    height: 6px;
+    margin-top: 4px;
+    background-color: red;
+    filter: brightness(800%);
+    filter: drop-shadow(50%);
+}
+
+.extra {
+    height: 200px;
+    background-color: black;
+    
+}
+
+.topic {
+    font-size: large;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+
+}
+
+.box1 {
+    margin-left: 12%;
+    margin-top: 1%;
+    border: 1px solid white;
+    background-color: rgba(113, 100, 100, 0.571);
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box2 {
+    margin-left: 0%;
+    margin-top: 1%;
+    border: 1px solid white;
+    background-color: rgba(113, 100, 100, 0.571);
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.bigcont {
+    width: 73vw;
+    height: 30vh;
+    border: 2px solid white;
+    margin-left: 14%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.one {
+    border: 1px solid white;
+    width: 16%;
+}
+.two {
+    border: 1px solid white;
+    width: 17%;
+}
+.three {
+    border: 1px solid white;
+    width: 16%;
+}
+.four {
+    border: 1px solid white;
+    width: 17%;
+}
+.five {
+    border: 1px solid white;
+    width: 16%;
+}
+.six {
+    border: 1px solid white;
+    width: 18%;
+}
+.ek{
+    width: 180px;
+    height: 222px;
+}
+.do{
+   
+    width: 180px;
+    height: 222px;
+}
+.theen{
+   
+    width: 180px;
+    height: 222px;
+}
+.char{
+   
+    width: 190px;
+    height: 222px;
+}
+.panch{
+    width: 180px;
+    height: 222px;
+}
+.chauw{
+   
+    width: 195px;
+    height: 222px;
+}
